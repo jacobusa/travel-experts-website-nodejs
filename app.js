@@ -17,6 +17,10 @@ const moment = require('moment');
 
 // Some configurations
 let pool = mysql.createPool({
+  connectionLimit : 1000,
+  connectTimeout  : 60 * 60 * 1000,
+  acquireTimeout  : 60 * 60 * 1000,
+  timeout         : 60 * 60 * 1000,
   host: "ec2-35-164-148-141.us-west-2.compute.amazonaws.com",
   user: "root",
   password: "passwd1",
@@ -37,7 +41,7 @@ app.use(express.static(__dirname + '/static'));
 
 
 // service listening and page routing
-app.listen(8000, (err) => {
+app.listen(7000, (err) => {
   if (err) throw err;
   console.log("Server listening to port 8000...")
 });
