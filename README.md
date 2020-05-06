@@ -6,6 +6,7 @@
 - __Date__:             03/20/2020
 
 ## 1. Overview
+- A Full stack travel website solution incorporating professional design, registration feature, and database integration.
 - Travel Experts website is served on port 8000 locally, or served on 35.164.148.141 globally.
 
 ## 2. Total Components
