@@ -7,7 +7,10 @@
 
 ## 1. Overview
 - A Full stack travel website solution incorporating professional design, registration feature, and database integration.
-- Travel Experts website is served on port 8000 locally, or served on 35.164.148.141 globally.
+- Travel Experts website is served on port 8000 locally. Was hosted on aws but free trial ended.
+
+## 2. Setup Instructions
+- Run travelexpert-database-script.txt in sql to create the database locally then insert user and password into app.js database connection.
 
 ## 2. Total Components
 - app.js
